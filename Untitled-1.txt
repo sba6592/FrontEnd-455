@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url("Image.jpg");
+}
+td {
+  background-color: darkslateblue;
+  color: blanchedalmond
+}
+.topnav {
+  overflow: hidden;
+  background-color: #808080;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #28c1b7;
+  color: deepskyblue ;
+}
+</style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="retrieve.php">Players</a>
+        <a>Teams</a>
+        <a>Game</a>
+        <a>Game Data</a>
+        <a>Shopping </a>
+        <a>Memberships</a>
+        <a>Login</a>
+        <a href="#"> |</a>
+    </div>
+    <h1>Welcome to the Website</h1>
+
+    <!---<div class="topnav">
+        <a class="active" href="retrieve.php">GameNumber</a>
+        <a href="zooactivities.php">PLayers</a>
+        <a href="zooanimals.php">Memberships</a>
+        <a href="zoodonations.php">Zoo Donations</a>
+        <a href="zoofeedings.php">Zoo Feedings</a>
+        <a href="zoomembership.php">Zoo Membership</a>
+        <a href="zooshows.php">Zoo Shows</a>
+        <a href="zoosupplies.php">Zoo Supplies</a>
+        <a href="zooview.php">MySql View</a>
+        <a href="#"> |</a>
+    </div>
+        -->
+    <h1>Welcome </h1>
+    <p>Explore our Office</p>
+
+    
+
+</body>
+</html>
